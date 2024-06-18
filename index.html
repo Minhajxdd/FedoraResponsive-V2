@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedora Linux | The Fedora Project</title>
+    <link rel="icon" type="image/x-icon" href="./images/fedora-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Navbar -->
+<nav>
+    <div class="container">
+        <div class="one">
+            <a href="https://fedoraproject.org/" target="_blank">
+                <svg viewBox="0 0 2034 512.00001" class="h-8"><title>Fedora Logo</title><g id="fedora-logo">
+                    <path d="M.0413 255.8C.1219 132.2 100.3 32 224 32C347.7 32 448 132.3 448 256C448 379.7 347.8 
+                    479.9 224.1 480H50.93C22.84 480 .0832 457.3 .0416 429.2H0V255.8H.0413zM342.6 192.7C342.6 153 307 
+                    124.2 269.4 124.2C234.5 124.2 203.6 150.5 199.3 184.1C199.1 187.9 198.9 189.1 198.9 192.6C198.8 213.7 
+                    198.9 235.4 198.1 257C199 283.1 199.1 309.1 198.1 333.6C198.1 360.7 178.7 379.1 153.4 379.1C128.1 379.1
+                     107.6 358.9 107.6 333.6C108.1 305.9 130.2 288.3 156.1 287.5H156.3L182.6 287.3V250L156.3 250.2C109.2 249.8 
+                     71.72 286.7 70.36 333.6C70.36 379.2 107.9 416.5 153.4 416.5C196.4 416.5 232.1 382.9 236 340.9L236.2 287.4L268.8 
+                     287.1C294.1 287.3 293.8 249.3 268.6 249.8L236.2 250.1C236.2 243.7 236.3 237.3 236.3 230.9C236.4 218.2 236.4 205.5 236.2 
+                     192.7C236.3 176.2 252 161.5 269.4 161.5C286.9 161.5 305.3 170.2 305.3 192.7C305.3 195.9 305.2 197.8 305 199C303.1 209.5 310.2 
+                     219.4 320.7 220.9C331.3 222.4 340.9 214.8 341.9 204.3C342.5 200.1 342.6 196.4 342.6 192.7H342.6z"></path><path class="hidden md:inline" 
+                     d="m 723.90867,63.999998 c -65.3331,0 -107.26858,48.697372 -107.66016,94.255752 v 264.14026 c -0.0828,32.5758 50.50882,32.5758 50.41809,0 V 
+                     246.10619 h 51.83796 c 12.12461,0 22.47756,-8.61647 22.47756,-22.43776 0,-13.82143 -11.08915,-22.17511 -22.47756,-22.17511 H 666.6666 v -40.60635 c 
+                     0,-26.00016 20.7441,-47.67067 62.49495,-47.15812 14.52182,0.18783 19.64258,3.63197 24.94321,6.802 28.9561,18.80849 56.81865,-24.741062 26.4777,-41.391098 
+                     C 761.98249,67.978179 744.6257,64.029287 723.8832,64.029287 Z m 552.49143,4.710719 c -15.7264,-0.825689 -27.2958,14.449398 -24.8779,28.976793 v 112.52146 c 
+                     -49.8753,-40.99952 -131.0594,-38.13113 -177.0698,7.26091 -46.5548,40.69708 -55.4004,114.42363 -21.5448,165.22693 24.8716,38.37308 70.3743,65.7565 117.2619,63.58213 
+                     29.4845,-0.26822 58.6905,-12.76179 81.3639,-31.18778 -2.3263,14.55812 9.1447,29.97962 25.01,29.04365 15.5755,0.68128 27.67,-14.39496 25.2791,-28.9768 -0.2727,-108.20454 
+                     0.2727,-216.37087 -0.2727,-324.548358 -0.8068,-12.157869 -12.6379,-22.187844 -25.0101,-21.848794 h -0.057 z m 194.8182,110.167213 c -76.0553,-3e-5 -137.7146,59.97037 
+                     -137.7305,133.95638 -0.017,74.01148 61.6529,134.01687 137.7305,134.01687 76.0792,-6e-5 137.748,-60.00698 137.7305,-134.01687 -0.016,-73.9876 -61.6768,-133.95638 
+                     -137.7305,-133.95638 z m 449.8375,1.17728 c -34.3873,0 -59.1745,10.01438 -77.2285,22.69721 -27.4009,19.24146 2.0805,59.47533 29.4814,40.21477 12.4718,-8.75241 
+                     21.7342,-13.41076 47.7614,-13.41076 32.3943,0.63799 58.42,12.54738 58.42,36.28944 -17.3663,10.77509 -92.8677,19.71103 -133.3834,42.32707 -40.5458,22.60967 -38.4033,51.14394 -38.4033,69.65 0,40.60635 43.6865,68.02001 81.5151,68.02001 37.7985,0 53.8612,-7.78015 90.8446,-32.6363 v 7.06464 c -1.1954,34.11507 51.6868,34.11507 50.4786,0 V 274.48002 c 0.1655,-60.47179 -44.078,-93.53151 -109.4413,-94.46747 z m -250.8011,0.52306 c -21.8791,0 -25.5258,17.71334 -25.4112,24.85567 v 215.08153 c -0.6001,13.90295 11.1251,25.44464 25.8139,25.44464 14.6877,0 26.4108,-11.54202 25.8139,-25.44464 0,0 0.3884,-80.00612 0,-131.20897 -0.3883,-51.20442 42.1154,-62.28323 56.8792,-62.28323 10.9772,0 19.781,6.01105 28.4785,5.69094 12.9127,-0.47737 23.4756,-8.98481 23.4756,-23.87513 -0.3884,-24.0566 -30.4317,-27.46142 -52.6227,-27.01413 -22.1878,0.44491 -40.939,7.11304 -57.1513,16.61343 0,0 -3.3965,-17.8582 -25.2791,-17.8582 z m -774.70422,0.52306 c -16.75032,-1.26308 -35.26274,1.36989 -55.61207,9.09353 -49.30226,18.68752 -82.75355,64.60882 -82.90477,121.27625 -0.13689,59.35595 42.20609,135.94929 130.06288,136.52393 59.08376,0.38107 88.63996,-21.26302 104.58165,-35.987 10.58203,-9.1962 11.36393,-25.17562 1.66787,-35.26274 -9.71544,-10.10192 -26.01608,-10.34945 -36.01724,-0.52274 -11.90733,10.96833 -29.44478,27.26244 -79.1609,21.84879 -21.33624,-2.3162 -44.22924,-19.31627 -51.89845,-32.30361 l 162.88702,-67.95953 c 12.45683,-5.4283 18.21163,-19.59961 12.93973,-31.91203 -21.81216,-42.08671 -56.27582,-80.97235 -106.51404,-84.7767 z m 575.74742,47.94287 c 47.5751,1.4e-4 86.1472,37.50397 86.1647,83.78024 0.031,46.3097 -38.5529,83.87098 -86.1647,83.87098 -47.6118,7e-5 -86.1997,-37.55969 -86.1647,-83.87098 0.017,-46.27468 38.5895,-83.78024 86.1647,-83.78024 z m -304.0303,1.30844 c 45.014,-1.15261 85.2288,38.61344 84.3835,82.36038 0.9461,43.77718 -39.3997,83.4778 -84.3835,82.36037 -42.7807,1.1125 -81.999,-34.4175 -84.1718,-76.08079 -4.5557,-42.93194 31.3979,-84.83719 75.4472,-88.24838 2.9047,-0.27888 5.8179,-0.39381 8.7373,-0.39381 z m -284.27628,1.30845 c 24.49434,0.0239 47.61178,12.41144 59.35595,32.36411 l -135.58796,56.78839 c -9.67915,-35.4442 30.04647,-77.07724 51.68674,-84.83718 8.11235,-2.90771 16.37784,-4.32328 24.54527,-4.31739 z M 1981.3365,314.5961 c -0.011,16.03401 0.2468,20.66928 -0.1926,36.6826 -0.1113,19.24942 -12.4326,28.15225 -25.3459,35.5047 -12.9096,7.3666 -39.1578,13.81539 -54.3434,14.52182 -17.5255,0.56827 -40.7274,-3.29387 -41.9658,-23.67935 0.011,-12.3059 6.0957,-19.95616 16.0739,-28.45469 23.6332,-17.38702 55.612,-23.20817 105.7882,-34.59896 z"></path></g></svg>
+           
+
+            </a>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="#"">Get Fedora</a></li>
+                <li><a href="#"">Contributors</a></li>
+                <li><a href="#"">Connections</a></li>
+                <li><a href="#"">Help</a></li>
+                <li><a href="#"">Languages</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
+                 </ul>
+        </div>
+        <svg onclick="navbar()" class="menuicon" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>    
+        
+    </div>
+</nav>
+
+<!-- Navbar 800 breakpoint -->
+<div class="dropNav">
+    <div class="top">
+        <div class="one">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+            <p>Get Fedora</p>
+        </div>
+        <div class="two">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            <p>Contributors</p>
+        </div>
+        <div class="three">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>        <p>Connections</p>
+        </div>
+        <div class="four">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon" data-v-1f191a05="" style="" width="24px" height="24px" viewBox="0 0 16 16" data-v-9c34c54e=""><path fill="#ffff" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m6.43-5.228a7.03 7.03 0 0 1-3.658 3.658l-1.115-2.788a4 4 0 0 0 1.985-1.985zM5.228 14.43a7.03 7.03 0 0 1-3.658-3.658l2.788-1.115a4 4 0 0 0 1.985 1.985zm9.202-9.202l-2.788 1.115a4 4 0 0 0-1.985-1.985l1.115-2.788a7.03 7.03 0 0 1 3.658 3.658m-8.087-.87a4 4 0 0 0-1.985 1.985L1.57 5.228A7.03 7.03 0 0 1 5.228 1.57zM8 11a3 3 0 1 1 0-6a3 3 0 0 1 0 6"></path></svg>        <p>Help</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Section one -->
+<section class="sec-1">
+    <div class="one">
+        <div class="content">
+            <p>
+                🎉
+                <a href="https://fedoramagazine.org/announcing-fedora-linux-40" target="_blank">Fedora Linux 40 released!</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="content">
+            <h1>It's your Operating System.</h1>
+            <h3>An innovative platform for hardware, clouds, and containers, built with love by you.</h3>
+            <p>100% Free & Open Source</p>
+            <div class="circle">
+                <a href="https://fedoraproject.org/#editions">
+                    <span>Latest release</span>
+                <h2>40</h2>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="three">
+        <a href="#">
+            <h3>A Registered Digital <br>
+                <span>Public Good</span> 
+            </h3>  
+        </a>
+        <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="84px" viewBox="0 0 153 117" style="enable-background:new 0 0 153 117;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M120.3,39.6c1.2,0,2.3-0.5,3.1-1.3v1.8c0,1.7-1.4,3.1-3.1,3.1c-1.4,0-2.5-0.9-2.9-2.1l-1.2,0.5
+			c0.4,1,1.1,1.9,2.1,2.4v12.3h1.3v-1.1c0.8,0.8,1.9,1.3,3.1,1.3c2.4,0,4.4-2,4.4-4.4s-2-4.4-4.4-4.4c-1.2,0-2.3,0.5-3.1,1.3v-4.5
+			c0.2,0,0.5,0.1,0.8,0.1c2.4,0,4.4-2,4.4-4.4V31h-1.3v1c-0.8-0.8-1.9-1.2-3.1-1.2c-2.4,0-4.4,1.9-4.4,4.4
+			C115.9,37.6,117.8,39.6,120.3,39.6z M122.6,49.1c1.7,0,3.1,1.4,3.1,3.1c0,1.7-1.4,3.1-3.1,3.1s-3.1-1.4-3.1-3.1
+			C119.5,50.4,120.9,49.1,122.6,49.1z M120.3,32.1c1.7,0,3.1,1.4,3.1,3.1c0,1.7-1.4,3.1-3.1,3.1s-3.1-1.4-3.1-3.1
+			C117.2,33.5,118.5,32.1,120.3,32.1z M142.5,49.1c1.2,0,2.3,0.7,2.8,1.7h1.4c-0.6-1.8-2.2-3.1-4.2-3.1c-2.4,0-4.4,2-4.4,4.4
+			s2,4.4,4.4,4.4c2,0,3.6-1.3,4.2-3.1h-1.4c-0.5,1-1.6,1.7-2.8,1.7c-1.7,0-3.1-1.4-3.1-3.1S140.7,49.1,142.5,49.1z M143.1,65
+			c-0.8-0.8-1.9-1.3-3.1-1.3c-2.4,0-4.4,2-4.4,4.4s2,4.4,4.4,4.4c1.2,0,2.3-0.5,3.1-1.3v1.1h1.3V56.8h-1.3V65z M140,71.3
+			c-1.7,0-3.1-1.4-3.1-3.1s1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1S141.7,71.3,140,71.3z M111.9,39.4h1.3V31h-1.3V39.4z M109,47.9
+			v5.4c0,2,1.3,3.2,3.2,3.2c1.9,0,3.2-1.2,3.2-3.2v-5.4h-1.3v5.3c0,1.3-0.8,2.1-1.9,2.1s-1.9-0.8-1.9-2.1v-5.3H109z M112.5,29.4
+			c0.5,0,0.9-0.4,0.9-0.9s-0.4-0.9-0.9-0.9s-0.9,0.4-0.9,0.9S112,29.4,112.5,29.4z M127.9,39.4h1.3V31h-1.3
+			C127.9,31,127.9,39.4,127.9,39.4z M149.9,67.6c-1-0.4-1.6-0.7-1.6-1.4c0-0.7,0.5-1.1,1.2-1.1c0.6,0,1,0.2,1.3,0.7l1.1-0.6
+			c-0.3-0.8-1.4-1.4-2.5-1.4c-1.2,0-2.5,0.9-2.5,2.4c0,1.3,0.9,2,2.4,2.6c1,0.4,1.6,0.7,1.6,1.4c0,0.7-0.6,1.2-1.4,1.2
+			c-0.8,0-1.5-0.4-1.7-1.1l-1.3,0.5c0.3,1,1.6,1.8,2.9,1.8c1.5,0,2.7-1,2.7-2.5C152.3,68.6,151,68,149.9,67.6z M125.1,81.8
+			c0,1.5,1.1,2.6,2.6,2.6c0.7,0,1.4-0.3,1.7-0.6V83c-0.2,0.4-0.9,0.8-1.7,0.8c-1.1,0-2-0.9-2-2.1s0.9-2.1,2-2.1
+			c0.8,0,1.5,0.4,1.7,0.8v-0.7c-0.3-0.3-1-0.6-1.7-0.6C126.2,79.2,125.1,80.3,125.1,81.8z M129.5,56.4h1.3V40.8h-1.3V56.4z
+			 M141.1,34.8c-1.8,0-2.9,0.9-2.9,2.4c0,1.4,1.1,2.4,2.9,2.4c1.5,0,2.7-0.6,3.3-1.5c0.3,0.9,1,1.5,2,1.5c0.2,0,0.5-0.1,0.6-0.2
+			v-1.1h-0.5c-0.5,0-0.9-0.3-0.9-1.1v-3.1c0-2-1.7-3.3-3.7-3.3c-2.1,0-3.7,1.3-3.7,3.3h1.3c0-1.3,1.1-2,2.4-2c1.3,0,2.4,0.7,2.4,2
+			v0.7C144.3,34.8,141.1,34.8,141.1,34.8z M144.3,36.5c-0.4,1.2-1.5,2-2.9,2c-1,0-1.7-0.5-1.7-1.2c0-0.8,0.7-1.3,1.7-1.3h3v0.5
+			H144.3z M150.1,23.9h-1.3v15.6h1.3V23.9z M132.8,37.2c0,1.3,1.1,2.4,2.4,2.4c0.4,0,0.9-0.1,1.1-0.3v-1h-1c-0.7,0-1.3-0.5-1.3-1.3
+			v-4.8h2.3V31H134v-3.7h-1.3V31h-1.4v1.3h1.4v4.9H132.8z M128.6,29.4c0.5,0,0.9-0.4,0.9-0.9s-0.4-0.9-0.9-0.9s-0.9,0.4-0.9,0.9
+			C127.7,29,128.1,29.4,128.6,29.4z M133.8,45.4c0,0.5,0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9s-0.4-0.9-0.9-0.9S133.8,44.9,133.8,45.4z
+			 M122.3,79.2c-0.7,0-1.3,0.4-1.6,1.1v-1h-0.6v5h0.6v-3c0-0.8,0.6-1.5,1.5-1.5c0.8,0,1.2,0.5,1.2,1.4v3.2h0.6V81
+			C123.9,79.9,123.3,79.2,122.3,79.2z M112.1,65.7h-6.5V67h5.1c-0.4,2.5-2.5,4.3-5.1,4.3c-2.9,0-5.2-2.3-5.2-5.2
+			c0-2.9,2.3-5.2,5.2-5.2c1.9,0,3.6,1,4.5,2.6l1.2-0.7c-1.1-2-3.2-3.3-5.7-3.3c-3.6,0-6.5,2.9-6.5,6.5c0,3.6,2.9,6.5,6.5,6.5
+			s6.5-2.9,6.5-6.5V65.7z M109.3,84.3h0.6v-8.4h-0.6V84.3z M111.7,84.3h0.6v-5h-0.6V84.3z M107,84.3h0.6v-8.4H107V84.3z M112,76.7
+			c-0.2,0-0.4,0.2-0.4,0.4s0.2,0.4,0.4,0.4c0.2,0,0.4-0.2,0.4-0.4S112.2,76.7,112,76.7z M117.9,80.6c-0.3-0.8-1-1.4-1.9-1.4
+			c-1.3,0-2.4,1-2.4,2.6s1.1,2.6,2.4,2.6c0.9,0,1.6-0.5,1.9-1.4v1.3h0.5v-5h-0.5V80.6z M116.1,83.9c-1,0-1.9-0.8-1.9-2.1
+			s0.9-2.1,1.9-2.1c0.9,0,1.8,0.9,1.8,2.1S117.1,83.9,116.1,83.9z M123,68.2c0-2.4-2-4.4-4.4-4.4s-4.4,2-4.4,4.4s2,4.4,4.4,4.4
+			S123,70.6,123,68.2z M118.6,71.3c-1.7,0-3.1-1.4-3.1-3.1s1.4-3.1,3.1-3.1s3.1,1.4,3.1,3.1C121.6,69.9,120.2,71.3,118.6,71.3z
+			 M134.1,56.4h1.3v-8.5h-1.3V56.4z M99.4,84.3h0.7l1-2.5h3.3l1,2.5h0.7l-3.3-7.9L99.4,84.3z M101.3,81.2l1.4-3.4l1.4,3.4H101.3z
+			 M77.9,89.3V68l-19,8.7L77.9,89.3z M129.3,72.6c2.4,0,4.4-2,4.4-4.4s-2-4.4-4.4-4.4c-2.4,0-4.4,2-4.4,4.4S126.8,72.6,129.3,72.6z
+			 M129.3,65.1c1.7,0,3.1,1.4,3.1,3.1s-1.4,3.1-3.1,3.1c-1.7,0-3.1-1.4-3.1-3.1C126.2,66.5,127.6,65.1,129.3,65.1z M100.7,50.7h3.2
+			c2,0,3.5-1.5,3.5-3.5s-1.6-3.5-3.5-3.5h-4.6v12.7h1.4V50.7z M100.7,45h3.1c1.3,0,2.3,0.9,2.3,2.2c0,1.4-1,2.2-2.3,2.2h-3.1V45z
+			 M109.1,33.1c0-3.5-2.9-6.4-6.4-6.4h-3.5v12.7h3.5C106.3,39.4,109.1,36.6,109.1,33.1z M100.6,38.1v-10h2.1c2.8,0,5,2.1,5,5
+			s-2.2,5-5,5H100.6z M132.7,79.2c-1.2,0-2.1,0.8-2.3,1.9c0,0.2-0.1,0.4-0.1,0.6c0,1.5,1,2.6,2.3,2.6s1.8-0.6,2.3-1.3l-0.5-0.3
+			c-0.3,0.5-0.8,1-1.8,1s-1.7-0.7-1.8-1.9h4.1c0-0.1,0-0.2,0-0.3C135,80.2,134,79.2,132.7,79.2z M130.9,81.5
+			c0.1-1.1,0.9-1.8,1.8-1.8c1,0,1.7,0.7,1.7,1.8H130.9z M0.7,26v75.9L22.4,116l55.5-25L56.3,76.5L22.4,92.1V40l33.8-16.1v52.6
+			l21.7-10.2V15.1L56.3,1L0.7,26z"/>
+	</g>
+</g>
+</svg>
+
+    </div>
+    <div class="four">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" style="-webkit-print-color-adjust:exact;" viewBox="3047 814.969 1200.032 142.328"><path id="editions" d="M3047 915v42.297h1200.032V814.969L3047 915Z" class="fill-gray-100 dark:fill-gray-900"></path></svg>
+    </div>
+</section>
+
+
+<!-- Section two -->
+<section class="sec-2">
+    <div class="container">
+        <div class="card card1">
+            <img src="https://fedoraproject.org/assets/images/workstation-logo-dark.png" alt="card image">
+            <a class="mar-tp" href="https://fedoraproject.org/workstation">
+                <h2>The leading Linux
+                <br>desktop</h2>
+                <p>
+                    Fedora Workstation is a polished, easy to use operating system for laptop and desktop computers, with a complete set of tools for developers and makers of all kinds.
+                </p>
+            </a>
+            <div class="bottom">
+                <a class="anchor" href="https://fedoraproject.org/workstation/download" target="_blank">Download Now</a>
+                <a class="btn" href="https://fedoraproject.org/workstation">
+                    <div class="btn">
+                        <p>Learn More</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="card card2">
+            <img src="https://fedoraproject.org/assets/images/server-logo-dark.png" alt="card image">
+            <a class="mar-tp" href="https://fedoraproject.org/workstation">
+                <h2>A Community
+                <br>Server OS</h2>
+                <p>
+                    Fedora Server is a powerful, flexible operating system that includes the best and latest datacenter technologies.  </p>
+            </a>
+            <div class="bottom">
+                <a class="anchor" href="https://fedoraproject.org/server/download" target="_blank">Download Now</a>
+                <a class="btn" href="https://fedoraproject.org/server">
+                    <div class="btn">
+                        <p>Learn More</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="card card3">
+            <img src="https://fedoraproject.org/assets/images/IoT-logo-dark.png" alt="card image">
+            <a class="mar-tp" href="https://fedoraproject.org/workstation">
+                <h2>The solid edge 
+                <br>foundation</h2>
+                <p>
+                    Fedora loT provides a trusted open source platform as a strong foundation for loT ecosystems.
+                </p>
+            </a>
+            <div class="bottom">
+                <a class="anchor" href="https://fedoraproject.org/iot/download" target="_blank">Download Now</a>
+                <a class="btn" href="https://fedoraproject.org/iot">
+                    <div class="btn">
+                        <p>Learn More</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="card card4">
+            <img src="https://fedoraproject.org/assets/images/cloud-logo-dark.png" alt="card image">
+            <a class="mar-tp" href="https://fedoraproject.org/workstation">
+                <h2>The lightweight
+                <br>VM environment</h2>
+                <p>
+                    Fedora Cloud edition is a powerful and minimal base operating system image with tailored images available for both public and may private cloud uses.
+                </p>
+            </a>
+            <div class="bottom">
+                <a class="anchor" href="https://fedoraproject.org/cloud/download" target="_blank">Download Now</a>
+                <a class="btn" href="https://fedoraproject.org/cloud">
+                    <div class="btn">
+                        <p>Learn More</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="card card5 ">
+            <img src="https://fedoraproject.org/assets/images/coreos-logo-dark.png" alt="card image">
+            <a class="mar-tp" href="https://fedoraproject.org/workstation">
+                <h2>The container
+                <br>optimized OS</h2>
+                <p>
+                    Fedora CoreOs is an automatically updating, minimal, container-focused operating system.    
+                </p>
+            </a>
+            <div class="bottom">
+                <a class="anchor" href="https://fedoraproject.org/coreos/download" target="_blank">Download Now</a>
+                <a class="btn" href="https://fedoraproject.org/coreos">
+                    <div class="btn">
+                        <p>Learn More</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+<!-- Section three -->
+ <section class="sec-3">
+    <div class="head">
+        <h2>Want more Fedora options?</h2>
+    </div>
+    <div class="content">
+        <div class="one">
+            <h2>Atomic Desktops</h2>
+            <p>
+                The Fedora desktop experiences you know with an additional layer of security and reliablility.
+            </p>
+            <a href="https://fedoraproject.org/atomic-desktops">Learn More</a>
+        </div>
+        <div class="two">
+            <h2>Fedora Spins</h2>
+            <p>
+                If you prefer an alternative desktop environment such as KDE Plasma Desktop or Xfce, you can download a Fedora Spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
+            </p>
+            <a href="https://fedoraproject.org/spins">Learn More</a>
+    
+        </div>
+        <div class="three">
+            <h2>Fedora Labs</h2>
+            <p>
+                Fedora Labs is a selection of curated bundles of purpose-driven software and content as curated and maintained by members of the Fedora Community. These may be installed as standalone full versions of Fedora or as add-ons to existing Fedora installations.
+            </p>
+            <a href="https://fedoraproject.org/labs">Learn More</a>
+    
+        </div>
+        <div class="four">
+            <h2>Fedora ALT Downloads</h2>
+            <p>
+                The Fedora Alternative Downloads are either special-purpose - for testing, for specific architectures - or are more standard versions of Fedora in alternative formats such as network installer format or formatted for BitTorrent download.
+            </p>
+            <a href="https://alt.fedoraproject.org/">Learn More</a>
+    
+        </div>
+    </div>
+ </section>
+
+
+ <!-- Section four -->
+<section class="sec-4">
+    <div class="head">
+        <h2>Support Resources</h2>
+    </div>
+    <div class="content">
+        <div class="one">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon order-first text-fp-darkblue dark:text-fp-newblue" style="" width="36px" height="36px" viewBox="0 0 448 512" data-v-9c34c54e=""><path fill="currentColor" d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32h-32zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"></path></svg>
+                Documentation
+            </h2>
+            <p>
+                Extensive documentation is available at the Fedora documentation page.
+            </p>
+            <a href="https://docs.fedoraproject.org/en-US/">
+                Fedora Docs
+            </a>
+        </div>
+        <div class="two">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon order-first text-fp-darkblue dark:text-fp-newblue" style="" width="36px" height="36px" viewBox="0 0 512 512" data-v-9c34c54e=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0z"></path></svg>
+                Support
+            </h2>
+            <p>
+                Get support from our community on the Fedora Discussion Forum.
+            </p>
+            <a href="Get support from our community on the Fedora Discussion Forum.">
+                Fedora Discussion
+            </a>
+        </div>
+        <div class="three">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon order-first text-fp-darkblue dark:text-fp-newblue" style="" width="36px" height="36px" viewBox="0 0 640 512" data-v-9c34c54e=""><path fill="currentColor" d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5.4-.9.7-1.1.8l-.2.2C1 327.2-1.4 334.4.8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.3-11.4C134.1 343.3 169.8 352 208 352m240-176c0 112.3-99.1 196.9-216.5 207c24.3 74.4 104.9 129 200.5 129c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9l-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1.6 10.3.6 15.5z"></path></svg>
+                Chat
+            </h2>
+            <p>
+                Users and developers are available in the #fedora channel on Fedora Chat.
+            </p>
+            <a href="https://chat.fedoraproject.org/#/room/#fedora:fedoraproject.org">
+                Fedora Chat
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer  -->
+<footer>
+    <div class="main">
+        <div class="one">
+            <h3>
+                Editions
+            </h3>
+            <a href="#">Workstation</a>
+            <a href="#">Server</a>
+            <a href="#">CoreOs</a>
+            <a href="#">loT</a>
+            <a href="#">Cloud</a>
+
+        </div>
+        <div class="two">
+            <h3>
+                Atomic Desktops
+            </h3>
+            <a href="#">Silverblue</a>
+            <a href="#">Kinoite</a>
+            <a href="#">Sway Atomic</a>
+            <a href="#">Budgie Atmoic</a>
+        </div>
+        <div class="three">
+            <h3>
+                Spins
+            </h3>
+            <a href="#">KDE Desktop</a>
+            <a href="#">Xfce Desktop</a>
+            <a href="#">Cinnamon Desktop</a>
+            <a href="#">MATE+Compiz Desktop</a>
+            <a href="#">i3 Tiling WM</a>
+            <a href="#">LXQt Desktop</a>
+            <a href="#">LXDE Desktop</a>
+            <a href="#">SOAS Desktop</a>
+            <a href="#">Sway Tiling WM</a>
+            <a href="#">Budgie Desktop</a>
+        </div>
+        <div class="four">
+            <h3>
+                Labs
+            </h3>
+            <a href="#">Astronomy</a>
+            <a href="#">Comp Neuro</a>
+            <a href="#">Design Suite</a>
+            <a href="#">Games</a>
+            <a href="#">jam Python Classroom</a>
+            <a href="#">Scientific</a>
+            <a href="#">Security Lab</a>
+        </div>
+        
+    </div>
+    <div class="second">
+        <img src="https://fedoraproject.org/assets/images/logos/fedora-blue.png" alt="Fedora image">
+        
+        <div class="center">
+            <div class="up">
+                <a href="#">Privacy Statement</a>
+                <a href="#">Legal</a>
+                <a href="#">Code of Conduct</a>
+                <a href="#">Sponsors</a>
+            </div>
+            <div class="down">
+                <p>
+                    Help improve this website on the 
+                    <a href="">
+                        CMS
+                    </a>
+                     or the
+                     <a href="">
+                        GitLab repo
+                     </a>
+                </p>
+            </div>
+        </div>
+       
+    </div>
+    <div class="third">
+        <img src="https://fedoraproject.org/assets/images/logo-sponsored-by-red-hat.png" alt="Fedora image">
+        <div class="center">
+            <div class="up">
+                <p>Fedora is sponsored by Red Hat. </p>
+            </div>
+            <div class="down">
+                <a href="https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/">
+                    Learn more about the relationship between Red Hat and Fedora.
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./index.js"></script>
+</body>
+</html>
