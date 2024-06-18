@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fedora Linux | The Fedora Project</title>
-    <link rel="icon" type="image/x-icon" href="./images/fedora-icon.png">
+    <link rel="icon" type="image/x-icon" href="./images/fedora-icon.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
 <!-- Navbar -->
 <nav>
-    <div class="container">
+    <div class="containerOne">
         <div class="one">
             <a href="https://fedoraproject.org/" target="_blank">
                 <svg viewBox="0 0 2034 512.00001" class="h-8"><title>Fedora Logo</title><g id="fedora-logo">
@@ -167,7 +168,7 @@
 
 <!-- Section two -->
 <section class="sec-2">
-    <div class="container">
+    <div class="containerTwo">
         <div class="card card1">
             <img src="https://fedoraproject.org/assets/images/workstation-logo-dark.png" alt="card image">
             <a class="mar-tp" href="https://fedoraproject.org/workstation">
@@ -273,41 +274,52 @@
     <div class="head">
         <h2>Want more Fedora options?</h2>
     </div>
-    <div class="content">
-        <div class="one">
-            <h2>Atomic Desktops</h2>
-            <p>
-                The Fedora desktop experiences you know with an additional layer of security and reliablility.
-            </p>
-            <a href="https://fedoraproject.org/atomic-desktops">Learn More</a>
-        </div>
-        <div class="two">
-            <h2>Fedora Spins</h2>
-            <p>
-                If you prefer an alternative desktop environment such as KDE Plasma Desktop or Xfce, you can download a Fedora Spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
-            </p>
-            <a href="https://fedoraproject.org/spins">Learn More</a>
-    
-        </div>
-        <div class="three">
-            <h2>Fedora Labs</h2>
-            <p>
-                Fedora Labs is a selection of curated bundles of purpose-driven software and content as curated and maintained by members of the Fedora Community. These may be installed as standalone full versions of Fedora or as add-ons to existing Fedora installations.
-            </p>
-            <a href="https://fedoraproject.org/labs">Learn More</a>
-    
-        </div>
-        <div class="four">
-            <h2>Fedora ALT Downloads</h2>
-            <p>
-                The Fedora Alternative Downloads are either special-purpose - for testing, for specific architectures - or are more standard versions of Fedora in alternative formats such as network installer format or formatted for BitTorrent download.
-            </p>
-            <a href="https://alt.fedoraproject.org/">Learn More</a>
-    
-        </div>
-    </div>
  </section>
 
+        <!-- Section three bootstrap added -->
+
+ <div class="container-fluid  container-custom-sec-3 text-start">
+    <div class="row row-sec-3 d-flex sec-3-row custom-row-sec-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">Atomic Desktops</h5>
+              <p class="card-text">The Fedora desktop experiences you know with an additional layer of security and reliability.</p>
+              <a href="#" class="card-link">Learn More</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">Fedora Spins</h5>
+                <p class="card-text">If you prefer an alternative desktop environment such as KDE Plasma Desktop or Xfce, you can download a Fedora Spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.</p>
+              <a href="#" class="card-link">Learn More</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">Fedora Labs</h5>
+                <p class="card-text">Fedora Labs is a selection of curated bundles of purpose-driven software and content as curated and maintained by members of the Fedora Community. These may be installed as standalone full versions of Fedora or as add-ons to existing Fedora installations.</p>
+              <a href="#" class="card-link">Learn More</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mx-auto">
+        <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">Fedora ALT Downloads</h5>
+                <p class="card-text">The Fedora Alternative Downloads are either special-purpose - for testing, for specific architectures - or are more standard versions of Fedora in alternative formats such as network installer format or formatted for BitTorrent download.</p>
+              <a href="#" class="card-link">Learn More</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+ 
 
  <!-- Section four -->
 <section class="sec-4">
@@ -447,6 +459,10 @@
 </footer>
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <script src="./index.js"></script>
 </body>
 </html>

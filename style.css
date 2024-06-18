@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #0F172A;
+}
+
 html,body{
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -30,32 +34,32 @@ body{
 nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 99;
 }
 
-nav .container {
+nav .containerOne {
     height: 3.438rem;
     background-image: linear-gradient(to right, #2B467A, #3C6EB3);
     display: flex;
 }
 
-nav .container .one a {
+nav .containerOne .one a {
     cursor: default;
 }
 
-nav .container .one svg {
+nav .containerOne .one svg {
     margin: 0.625rem 0.938rem;
     fill: var(--white);
     width: 8rem;
     transition: 300ms;
 }
 
-nav .container .one svg:hover {
+nav .containerOne .one svg:hover {
     fill: #94A1BA;
 }
 
-nav .container .two {
+nav .containerOne .two {
     margin-left: auto;
     height: 100%;
     display: flex;
@@ -63,25 +67,25 @@ nav .container .two {
     align-items: center;
 }
 
-nav .container .two ul {
+nav .containerOne .two ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.313rem;
 }
 
-nav .container .two ul li {
+nav .containerOne .two ul li {
     list-style: none;
     padding: 0.625rem;
     display: inline-block;
     border-radius: 0.625rem;
 }
 
-nav .container .two ul li:hover {
+nav .containerOne .two ul li:hover {
     background-color: #4078BB;
 }
 
-nav .container .two ul a {
+nav .containerOne .two ul a {
     color: var(--white);
     width: 100%;
     height: 100%;
@@ -90,7 +94,7 @@ nav .container .two ul a {
     font-size: 0.938rem;
 }
 
-nav .container .two ul svg {
+nav .containerOne .two ul svg {
     fill: var(--white);
     width: 0.875rem;
     margin-right: 1.563rem;
@@ -153,7 +157,7 @@ nav .container .two ul svg {
 /*   Section one nav bar */
 
 @media (max-width: 50rem) {
-    nav .container .two {
+    nav .containerOne .two {
         display: none;
     }
 
@@ -358,7 +362,7 @@ nav .container .two ul svg {
     margin-top: -0.625rem; 
 }
 
-.sec-2 .container {
+.sec-2 .containerTwo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -366,7 +370,7 @@ nav .container .two ul svg {
     margin: 0 5rem; 
 }
 
-.sec-2 .container .card {
+.sec-2 .containerTwo .card {
     background-color: #1F2937;
     width: 24.375rem; 
     height: auto;
@@ -380,30 +384,30 @@ nav .container .two ul svg {
     margin-top: 5.625rem; 
 }
 
-.sec-2 .container .card img {
+.sec-2 .containerTwo .card img {
     width: 18.75rem; 
     position: absolute;
     top: -1.625rem; 
 }
 
-.sec-2 .container .card .mar-tp {
+.sec-2 .containerTwo .card .mar-tp {
     margin-top: 3.125rem;
 }
 
-.sec-2 .container .card .mar-tp p {
+.sec-2 .containerTwo .card .mar-tp p {
     margin-top: 0.625rem; 
 }
 
-.sec-2 .container .card .anchor {
+.sec-2 .containerTwo .card .anchor {
     font-size: 1.0625rem; 
     color: #3C6EB4;
 }
 
-.sec-2 .container .card a {
+.sec-2 .containerTwo .card a {
     text-decoration: none;
 }
 
-.sec-2 .container .card a h2 {
+.sec-2 .containerTwo .card a h2 {
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(43deg, #75D641, #54A6CD);
     -webkit-background-clip: text;
@@ -411,97 +415,97 @@ nav .container .two ul svg {
     font-size: 2.3125rem; 
 }
 
-.sec-2 .container .card a p {
+.sec-2 .containerTwo .card a p {
     color: #D1D5DB;
     font-size: 1.1875rem; 
 }
 
-.sec-2 .container .card .bottom {
+.sec-2 .containerTwo .card .bottom {
     width: 100%;
     margin-top: 1.25rem; 
     display: flex;
     align-items: center;
 }
 
-.sec-2 .container .card .bottom .btn {
+.sec-2 .containerTwo .card .bottom .btn {
     margin-left: auto;
     text-decoration: none;
 }
 
-.sec-2 .container .card .bottom a .btn {
+.sec-2 .containerTwo .card .bottom a .btn {
     background-color: var(--primary-blue);
     padding: 0.9375rem 1.5625rem; 
     border-radius: 0.3125rem; 
     transition: 300ms;
 }
 
-.sec-2 .container .card .bottom a .btn:hover {
+.sec-2 .containerTwo .card .bottom a .btn:hover {
     background-color: #295178;
 }
 
-.sec-2 .container .card .bottom a .btn p {
+.sec-2 .containerTwo .card .bottom a .btn p {
     color: var(--white);
     font-size: 1.1875rem; 
 }
 
-.sec-2 .container .card2 img {
+.sec-2 .containerTwo .card2 img {
     width: 12.5rem; 
 }
 
-.sec-2 .container .card3 img {
+.sec-2 .containerTwo .card3 img {
     width: 9.375rem; 
 }
 
-.sec-2 .container .card4 img {
+.sec-2 .containerTwo .card4 img {
     width: 11.875rem; 
 }
 
-.sec-2 .container .card5 img {
+.sec-2 .containerTwo .card5 img {
     width: 11.875rem;
 }
 
-.sec-2 .container .card .bottom {
+.sec-2 .containerTwo .card .bottom {
     margin-top: auto;
     padding-top: 0.625rem;
 }
 
 /* Section two media query */
 @media (max-width: 63.125rem) { 
-    .sec-2 .container {
+    .sec-2 .containerTwo {
         flex-direction: column;
         align-items: center;
     }
 
-    .sec-2 .container .card {
+    .sec-2 .containerTwo .card {
         width: 100%;
         margin-top: 0;
     }
 
-    .sec-2 .container .card1 {
+    .sec-2 .containerTwo .card1 {
         margin-top: 3.125rem; 
     }
 }
 
 @media (max-width: 46.875rem) { 
-    .sec-2 .container {
+    .sec-2 .containerTwo {
         margin: 0 0.625rem; 
     }
 
-    .sec-2 .container .card a h2 {
+    .sec-2 .containerTwo .card a h2 {
         font-size: 1.375rem; 
     }
 
-    .sec-2 .container .card a br {
+    .sec-2 .containerTwo .card a br {
         display: none;
     }
 
-    .sec-2 .container .card .bottom a .btn {
+    .sec-2 .containerTwo .card .bottom a .btn {
         padding: 0.3125rem 0.625rem; 
     }
 }
 
 @media (max-width: 31.25rem) { 
-    .sec-2 .container .card a p {
+    .sec-2 .containerTwo .card a p {
         font-size: 1rem; 
     }
 }
@@ -529,7 +533,7 @@ nav .container .two ul svg {
     font-weight: 500;
 }
 
-.sec-3 .content {
+/* .sec-3 .content {
     background-image: linear-gradient(to right, #3B4D46, #213B56);
     height: auto;
     border-radius: 0.3125rem; 
@@ -574,7 +578,7 @@ nav .container .two ul svg {
     .sec-3 .content div {
         padding: 1.25rem 1.25rem; 
     }
-}
+} */
 
 @media (max-width: 33.75rem) { 
     .sec-3 .head h2 {
@@ -582,7 +586,7 @@ nav .container .two ul svg {
         margin: 0 0.3125rem; 
     }
 
-    .sec-3 .content div h2 {
+    /* .sec-3 .content div h2 {
         font-size: 1.5625rem; 
     }
 
@@ -592,8 +596,53 @@ nav .container .two ul svg {
 
     .sec-3 .content div a {
         font-size: 1rem; 
-    }
+    } */
 }
+
+/* Section three bootsrap style's */
+@media (min-width: 992px) {
+    .container-custom-sec-3 {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+.sec-3-row .card{
+  background-color: #51a1da00;
+}
+
+
+.custom-row-sec-3{
+    background-image: linear-gradient(to right, #3A4D47,#213B56);
+    border-radius: 10px;
+}
+
+
+
+.sec-3-row h5{
+    font-size: 2rem;
+    font-weight: 501;
+    color: var(--text-blue);
+}
+
+.sec-3-row p{
+    font-size: 1.1875rem;
+    color: var(--white);
+}
+
+.sec-3-row a{
+    font-size: 1.25rem;
+    color: var(--white); 
+    text-decoration: none; 
+    transition: 400ms;
+}
+
+.sec-3-row a:hover{
+    text-decoration: underline;
+}
+
+
+
 
 
 /* Secton four */
