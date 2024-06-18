@@ -533,44 +533,6 @@ nav .containerOne .two ul svg {
     font-weight: 500;
 }
 
-/* .sec-3 .content {
-    background-image: linear-gradient(to right, #3B4D46, #213B56);
-    height: auto;
-    border-radius: 0.3125rem; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.625rem; 
-}
-
-.sec-3 .content div {
-    height: auto;
-    padding: 1.875rem 1.25rem 2.5rem 1.25rem; 
-    width: 22.75rem; 
-    line-height: 1.5;
-}
-
-.sec-3 .content div h2 {
-    font-size: 2.0625rem; 
-    color: var(--text-blue);
-    width: 100%;
-}
-
-.sec-3 .content div p {
-    color: var(--white);
-    font-size: 1.125rem; 
-}
-
-.sec-3 .content div a {
-    color: var(--white);
-    text-decoration: none;
-    transition: 100ms;
-    font-size: 1.25rem; 
-}
-
-.sec-3 .content div a:hover {
-    text-decoration: underline;
-}
 
 /* Section three media query */
 
@@ -586,17 +548,6 @@ nav .containerOne .two ul svg {
         margin: 0 0.3125rem; 
     }
 
-    /* .sec-3 .content div h2 {
-        font-size: 1.5625rem; 
-    }
-
-    .sec-3 .content div p {
-        font-size: 1rem; 
-    }
-
-    .sec-3 .content div a {
-        font-size: 1rem; 
-    } */
 }
 
 /* Section three bootsrap style's */
@@ -642,9 +593,6 @@ nav .containerOne .two ul svg {
 }
 
 
-
-
-
 /* Secton four */
 
 .sec-4 {
@@ -657,57 +605,6 @@ nav .containerOne .two ul svg {
 .sec-4 .head h2 {
     color: var(--text-blue);
     font-size: 2.5rem; 
-    text-align: center;
-    font-weight: 500;
-}
-
-.sec-4 .content {
-    display: flex;
-    justify-content: center;
-    gap: 2.1875rem; 
-    flex-wrap: wrap;
-    margin: 0 1.875rem; 
-}
-
-.sec-4 .content div {
-    line-height: 1.5;
-    width: 23.75rem; 
-    height: 12.5rem; 
-    background-color: #1F2937;
-    border-radius: 0.3125rem; 
-    padding: 1.25rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 1.25rem; 
-}
-
-.sec-4 .content div h2 {
-    color: var(--text-blue);
-    display: flex;
-    align-items: center;
-    gap: 0.625rem; 
-    font-size: 2.3125rem; 
-}
-
-.sec-4 .content div p {
-    color: var(--white);
-    font-size: 1.1875rem; 
-    text-align: center;
-}
-
-.sec-4 .content div a {
-    color: var(--white);
-    font-size: 1.25rem; 
-    text-decoration: none;
-    transition: 300ms;
-    font-weight: bolder;
-}
-
-.sec-4 .content div a:hover {
-    text-decoration: underline;
-    color: var(--text-blue);
 }
 
 /* Section four media query */
@@ -716,25 +613,33 @@ nav .containerOne .two ul svg {
     .sec-4 .head h2 {
         font-size: 1.875rem; 
     }
-
-    .sec-4 .content div {
-        width: 100%;
-        padding: 8%;
-    }
-
-    .sec-4 .content div h2 {
-        font-size: 1.875rem; 
-    }
-
-    .sec-4 .content div p {
-        font-size: 1rem; 
-    }
-
-    .sec-4 .content div a {
-        font-size: 1rem; 
-    }
 }
 
+/* Section four bootstrapped */
+.custom-sec4-row .rounded{
+    background-color: #1F2937;
+    width: 23.75rem;
+    height: 11.875rem;
+  }
+  
+  @media(max-width:410px){
+    .custom-sec4-row .rounded{
+      width: 20.75rem;
+    }
+    .custom-sec4-row h2{
+        padding-top: 0.4375rem;
+    }
+  }
+  
+  .custom-sec4-row h2{
+    color: var(--text-blue);
+  }
+  
+  #sec4-custom-a:hover {
+    text-decoration: underline !important;
+    color: var(--text-blue) !important;
+    transition: 500ms !important;
+  }
 
 /* Footer */
 
@@ -900,3 +805,51 @@ footer .third .center a {
         margin-top: 0.625rem; 
     }
 }
+
+
+/* Boostrap Signal */
+
+
+body::before {
+    content: "XS";
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+     z-index: 9999;
+ }
+
+
+  @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
+
+
