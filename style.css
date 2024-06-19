@@ -291,6 +291,7 @@ nav .containerOne .two ul svg {
 
 .sec-1 .four svg {
     fill: var(--black);
+    height: 200px;
 }
 
 /* Section one media query */
@@ -356,160 +357,50 @@ nav .containerOne .two ul svg {
 
 
 /* Section two */
-.sec-2 {
-    background-color: var(--black);
-    height: auto;
-    margin-top: -0.625rem; 
-}
 
-.sec-2 .containerTwo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4.375rem; 
-    margin: 0 5rem; 
-}
 
-.sec-2 .containerTwo .card {
+.sec-2-custom-card{
     background-color: #1F2937;
-    width: 24.375rem; 
-    height: auto;
-    border-radius: 0.9375rem; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.9375rem; 
+  }
+  
+  .sec-2-custom-card img{
     position: relative;
-    margin-top: 5.625rem; 
-}
-
-.sec-2 .containerTwo .card img {
-    width: 18.75rem; 
-    position: absolute;
-    top: -1.625rem; 
-}
-
-.sec-2 .containerTwo .card .mar-tp {
-    margin-top: 3.125rem;
-}
-
-.sec-2 .containerTwo .card .mar-tp p {
-    margin-top: 0.625rem; 
-}
-
-.sec-2 .containerTwo .card .anchor {
-    font-size: 1.0625rem; 
-    color: #3C6EB4;
-}
-
-.sec-2 .containerTwo .card a {
+    top: -50px;
+  }
+  
+  .sec-2-custom-card a{
     text-decoration: none;
-}
-
-.sec-2 .containerTwo .card a h2 {
+  }
+  
+  .sec-2-custom-card a h1{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(43deg, #75D641, #54A6CD);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 2.3125rem; 
-}
-
-.sec-2 .containerTwo .card a p {
-    color: #D1D5DB;
-    font-size: 1.1875rem; 
-}
-
-.sec-2 .containerTwo .card .bottom {
-    width: 100%;
-    margin-top: 1.25rem; 
-    display: flex;
-    align-items: center;
-}
-
-.sec-2 .containerTwo .card .bottom .btn {
-    margin-left: auto;
-    text-decoration: none;
-}
-
-.sec-2 .containerTwo .card .bottom a .btn {
+    margin-top: -38px;
+  }
+  
+  .sec-2-custom-card a{
+    color: var(--text-blue);
+  }
+  
+  .sec-2-custom-card .card-bottom .btn{
     background-color: var(--primary-blue);
-    padding: 0.9375rem 1.5625rem; 
-    border-radius: 0.3125rem; 
     transition: 300ms;
-}
-
-.sec-2 .containerTwo .card .bottom a .btn:hover {
+    color: rebeccapurple;
+  }
+  
+  .sec-2-custom-card .card-bottom .btn:hover{
     background-color: #295178;
-}
-
-.sec-2 .containerTwo .card .bottom a .btn p {
-    color: var(--white);
-    font-size: 1.1875rem; 
-}
-
-.sec-2 .containerTwo .card2 img {
-    width: 12.5rem; 
-}
-
-.sec-2 .containerTwo .card3 img {
-    width: 9.375rem; 
-}
-
-.sec-2 .containerTwo .card4 img {
-    width: 11.875rem; 
-}
-
-.sec-2 .containerTwo .card5 img {
-    width: 11.875rem;
-}
-
-.sec-2 .containerTwo .card .bottom {
-    margin-top: auto;
-    padding-top: 0.625rem;
-}
-
-/* Section two media query */
-@media (max-width: 63.125rem) { 
-    .sec-2 .containerTwo {
-        flex-direction: column;
-        align-items: center;
+  }
+  
+  @media(min-width:1400px){
+    #margin-top-down{
+      margin-top: 4.4375rem !important;
     }
-
-    .sec-2 .containerTwo .card {
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .sec-2 .containerTwo .card1 {
-        margin-top: 3.125rem; 
-    }
-}
-
-@media (max-width: 46.875rem) { 
-    .sec-2 .containerTwo {
-        margin: 0 0.625rem; 
-    }
-
-    .sec-2 .containerTwo .card a h2 {
-        font-size: 1.375rem; 
-    }
-
-    .sec-2 .containerTwo .card a br {
-        display: none;
-    }
-
-    .sec-2 .containerTwo .card .bottom a .btn {
-        padding: 0.3125rem 0.625rem; 
-    }
-}
-
-@media (max-width: 31.25rem) { 
-    .sec-2 .containerTwo .card a p {
-        font-size: 1rem; 
-    }
-}
-
+  
+  }
 
 /* Section Three */
 
@@ -542,7 +433,7 @@ nav .containerOne .two ul svg {
     }
 } */
 
-@media (max-width: 33.75rem) { 
+@media(max-width: 33.75rem) { 
     .sec-3 .head h2 {
         font-size: 2rem; 
         margin: 0 0.3125rem; 
@@ -567,8 +458,6 @@ nav .containerOne .two ul svg {
     background-image: linear-gradient(to right, #3A4D47,#213B56);
     border-radius: 10px;
 }
-
-
 
 .sec-3-row h5{
     font-size: 2rem;
