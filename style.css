@@ -115,7 +115,7 @@ nav .containerOne .two ul svg {
 .dropNav {
     position: fixed;
     background-color: #171717;
-    top: 3.438rem; 
+    top: 3.438rem;
     right: 0;
     left: 0;
     height: 93%;
@@ -125,7 +125,7 @@ nav .containerOne .two ul svg {
 
 .dropNav .top {
     width: 100%;
-    height: 6.25rem; 
+    height: 6.25rem;
     background-image: linear-gradient(to right, #2B467A, #3C6EB3);
     display: flex;
     align-items: center;
@@ -137,7 +137,7 @@ nav .containerOne .two ul svg {
 }
 
 .dropNav .top div {
-    padding: 0.313rem; 
+    padding: 0.313rem;
     border-radius: 0.813rem;
     display: flex;
     flex-direction: column;
@@ -146,7 +146,7 @@ nav .containerOne .two ul svg {
 }
 
 .dropNav .top div svg {
-    width: 1.438rem; 
+    width: 1.438rem;
     fill: var(--white);
 }
 
@@ -310,7 +310,7 @@ nav .containerOne .two ul svg {
 
     .sec-1 .two .content h3 {
         font-size: 1rem;
-        width: 26.125rem; 
+        width: 26.125rem;
     }
 
     .sec-1 .two .content p {
@@ -320,28 +320,28 @@ nav .containerOne .two ul svg {
 
 @media (max-width: 40.625rem) {
     .sec-1 .one .content {
-        margin-top: 1.875rem; 
+        margin-top: 1.875rem;
     }
 
     .sec-1 .two .content h1 {
-        font-size: 1.875rem; 
+        font-size: 1.875rem;
     }
 
     .sec-1 .two .content p {
-        font-size: 0.875rem; 
+        font-size: 0.875rem;
     }
 
     .sec-1 .two .content .circle {
-        height: 7.5rem; 
-        width: 7.5rem; 
+        height: 7.5rem;
+        width: 7.5rem;
     }
 
     .sec-1 .two .content .circle a span {
-        font-size: 0.6875rem; 
+        font-size: 0.6875rem;
     }
 
     .sec-1 .two .content .circle a h2 {
-        font-size: 2.1875rem; 
+        font-size: 2.1875rem;
     }
 
     .sec-1 .three a {
@@ -351,7 +351,7 @@ nav .containerOne .two ul svg {
 
 @media (max-width: 27.8125rem) {
     .sec-1 .two .content h1 {
-        font-size: 1.5625rem; 
+        font-size: 1.5625rem;
     }
 }
 
@@ -362,44 +362,44 @@ nav .containerOne .two ul svg {
 .sec-2-custom-card{
     background-color: #1F2937;
   }
-  
+
   .sec-2-custom-card img{
     position: relative;
     top: -50px;
   }
-  
+
   .sec-2-custom-card a{
     text-decoration: none;
   }
-  
+
   .sec-2-custom-card a h1{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(43deg, #75D641, #54A6CD);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 2.3125rem; 
+    font-size: 2.3125rem;
     margin-top: -38px;
   }
-  
+
   .sec-2-custom-card a{
     color: var(--text-blue);
   }
-  
+
   .sec-2-custom-card .card-bottom .btn{
     background-color: var(--primary-blue);
     transition: 300ms;
     color: rebeccapurple;
   }
-  
+
   .sec-2-custom-card .card-bottom .btn:hover{
     background-color: #295178;
   }
-  
+
   @media(min-width:1400px){
     #margin-top-down{
       margin-top: 4.4375rem !important;
     }
-  
+
   }
 
 /* Section Three */
@@ -413,13 +413,13 @@ nav .containerOne .two ul svg {
 .sec-3 .head {
     height: auto;
     width: 100%;
-    padding-top: 6.25rem; 
-    padding-bottom: 2.5rem; 
+    padding-top: 6.25rem;
+    padding-bottom: 2.5rem;
 }
 
 .sec-3 .head h2 {
     color: var(--text-blue);
-    font-size: 2.625rem; 
+    font-size: 2.625rem;
     text-align: center;
     font-weight: 500;
 }
@@ -427,16 +427,16 @@ nav .containerOne .two ul svg {
 
 /* Section three media query */
 
-@media (max-width: 46.25rem) { 
+@media (max-width: 46.25rem) {
     .sec-3 .content div {
-        padding: 1.25rem 1.25rem; 
+        padding: 1.25rem 1.25rem;
     }
 } */
 
-@media(max-width: 33.75rem) { 
+@media(max-width: 33.75rem) {
     .sec-3 .head h2 {
-        font-size: 2rem; 
-        margin: 0 0.3125rem; 
+        font-size: 2rem;
+        margin: 0 0.3125rem;
     }
 
 }
@@ -472,8 +472,8 @@ nav .containerOne .two ul svg {
 
 .sec-3-row a{
     font-size: 1.25rem;
-    color: var(--white); 
-    text-decoration: none; 
+    color: var(--white);
+    text-decoration: none;
     transition: 400ms;
 }
 
@@ -488,19 +488,19 @@ nav .containerOne .two ul svg {
     background-color: var(--black);
     width: 100%;
     height: auto;
-    padding: 6.25rem 0 3.75rem 0; 
+    padding: 6.25rem 0 3.75rem 0;
 }
 
 .sec-4 .head h2 {
     color: var(--text-blue);
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
 }
 
 /* Section four media query */
 
-@media (max-width: 28.125rem) { 
+@media (max-width: 28.125rem) {
     .sec-4 .head h2 {
-        font-size: 1.875rem; 
+        font-size: 1.875rem;
     }
 }
 
@@ -510,7 +510,7 @@ nav .containerOne .two ul svg {
     width: 23.75rem;
     height: 11.875rem;
   }
-  
+
   @media(max-width:410px){
     .custom-sec4-row .rounded{
       width: 20.75rem;
@@ -519,11 +519,11 @@ nav .containerOne .two ul svg {
         padding-top: 0.4375rem;
     }
   }
-  
+
   .custom-sec4-row h2{
     color: var(--text-blue);
   }
-  
+
   #sec4-custom-a:hover {
     text-decoration: underline !important;
     color: var(--text-blue) !important;
@@ -544,48 +544,48 @@ footer .main {
 
 footer .main div {
     line-height: 1.6;
-    width: 12.6875rem; 
+    width: 12.6875rem;
 }
 
 footer .main div h3 {
     color: var(--white);
-    font-size: 1.625rem; 
+    font-size: 1.625rem;
 }
 
 footer .main div a {
     color: var(--white);
     text-decoration: none;
-    font-size: 1.1875rem; 
+    font-size: 1.1875rem;
     display: flex;
 }
 
 footer .second {
     background-color: #171717;
     display: flex;
-    padding: 1.875rem; 
+    padding: 1.875rem;
     align-items: center;
     justify-content: flex-start;
 }
 
 footer div img {
-    width: 10.625rem; 
-    margin-left: 0.5rem; 
+    width: 10.625rem;
+    margin-left: 0.5rem;
 }
 
 footer .second .center {
-    width: 31.25rem; 
+    width: 31.25rem;
     line-height: 1.5;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 2.5rem; 
+    margin-left: 2.5rem;
 }
 
 footer .second .center div a {
     color: #aaabad;
-    font-size: 1.1875rem; 
+    font-size: 1.1875rem;
     transition: 300ms;
-    margin-right: 0.625rem; 
+    margin-right: 0.625rem;
 }
 
 footer .second .center div a:hover {
@@ -594,23 +594,23 @@ footer .second .center div a:hover {
 
 footer .second .center div p {
     color: #3B3E43;
-    font-size: 1.1875rem; 
+    font-size: 1.1875rem;
 }
 
 footer .third {
     background-color: #000000;
-    padding: 1.875rem; 
+    padding: 1.875rem;
     display: flex;
 }
 
 footer .third .center {
     display: flex;
     flex-direction: column;
-    margin-left: 1.875rem; 
+    margin-left: 1.875rem;
 }
 
 footer .third .center * {
-    font-size: 1.1875rem; 
+    font-size: 1.1875rem;
 }
 
 footer .third .center p {
@@ -623,34 +623,34 @@ footer .third .center a {
 
 /* Footer media query */
 
-@media (max-width: 59.375rem) { 
+@media (max-width: 59.375rem) {
     footer .second img {
-        width: 6.25rem; 
+        width: 6.25rem;
     }
 
     footer .third img {
-        width: 6.25rem; 
-        height: 1.875rem; 
+        width: 6.25rem;
+        height: 1.875rem;
     }
 
     footer .second .center div a {
-        font-size: 0.9375rem; 
+        font-size: 0.9375rem;
     }
 
     footer .second .center div p {
-        font-size: 0.9375rem; 
+        font-size: 0.9375rem;
     }
 
     footer .third .center * {
-        font-size: 0.9375rem; 
+        font-size: 0.9375rem;
     }
 
     footer div img {
-        margin-left: 0.0625rem; 
+        margin-left: 0.0625rem;
     }
 }
 
-@media (max-width: 41.5625rem) { 
+@media (max-width: 41.5625rem) {
     footer .second {
         flex-direction: column;
         align-items: center;
@@ -667,78 +667,30 @@ footer .third .center a {
     }
 }
 
-@media (max-width: 30.625rem) { 
+@media (max-width: 30.625rem) {
     footer .second .center div a {
-        font-size: 0.625rem; 
+        font-size: 0.625rem;
     }
 
     footer .second .center div p {
-        font-size: 0.625rem; 
+        font-size: 0.625rem;
     }
 
     footer .third .center * {
-        font-size: 0.625rem; 
+        font-size: 0.625rem;
     }
 
     footer .main div {
-        width: 9.375rem; 
+        width: 9.375rem;
     }
 
     footer .main div a {
-        font-size: 0.9375rem; 
+        font-size: 0.9375rem;
     }
 
     footer .main div h3 {
-        font-size: 1.0625rem; 
+        font-size: 1.0625rem;
         font-weight: bolder;
-        margin-top: 0.625rem; 
+        margin-top: 0.625rem;
     }
 }
-
-
-/* Boostrap Signal */
-
-
-body::before {
-    content: "XS";
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    right: 0;
-     z-index: 9999;
- }
-
-
-  @media (min-width: 576px) {
-    body::before {
-      content: "SM";
-    }
-  }
-  
-  @media (min-width: 768px) {
-    body::before {
-      content: "MD";
-    }
-  }
-  
-  @media (min-width: 992px) {
-    body::before {
-      content: "LG";
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    body::before {
-      content: "XL";
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    body::before {
-      content: "XXL";
-    }
-  }
-
-
